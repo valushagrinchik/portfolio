@@ -86,18 +86,14 @@ export default function Projects() {
             {t('technologies')}
           </p>
           <div className="flex flex-col items-center gap-6 mb-8">
-            <div className="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
-              <div className="col-span-2 text-center">
-                <div className="px-8 py-4 bg-blue-100 text-blue-800 rounded-lg font-semibold text-xl">
+            <div className="grid grid-cols-3 grid-rows-2 gap-4 max-w-4xl mx-auto">
+              <div className="col-span-2 row-span-1 text-center flex items-center justify-center bg-blue-100 text-blue-800 rounded-lg font-semibold text-xl">
                   TypeScript
-                </div>
               </div>
-              <div className="col-span-1 text-center">
-                <div className="px-6 py-4 bg-purple-100 text-purple-800 rounded-lg font-semibold text-xl">
+              <div className="col-span-1 row-span-2 text-center flex items-center justify-center bg-purple-100 text-purple-800 rounded-lg font-semibold text-xl">
                   PostgreSQL
-                </div>
               </div>
-              <div className="col-span-1 text-center">
+              <div className="col-span-1 row-span-1 text-center">
                 <div className="px-6 py-3 bg-green-100 text-green-800 rounded-lg font-semibold text-lg">
                   Node.js
                 </div>
@@ -110,7 +106,7 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              <div className="col-span-1 text-center">
+              <div className="col-span-1 row-span-1 text-center">
                 <div className="px-6 py-3 bg-cyan-100 text-cyan-800 rounded-lg font-semibold text-lg">
                   React
                 </div>
@@ -120,7 +116,6 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              <div className="col-span-1"></div>
             </div>
           </div>
         </div>

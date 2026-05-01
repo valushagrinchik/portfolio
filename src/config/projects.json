@@ -6,7 +6,7 @@
     "features": ["multi-store bakery management", "geofenced delivery zones", "real-time notifications", "catalog parsing", "order processing"],
     "categories": ["fullstack"],
     "domain": "FoodTech / E-commerce",
-    "github": "https://github.com",
+    "github": "https://github.com/valushagrinchik/sm-bakery",
     "demo": "https://demo.com",
     "image": "/projects/sanmartin.png"
   }, 
@@ -17,7 +17,7 @@
     "features": ["multi-store bakery management", "geofenced delivery zones"],
     "categories": ["frontend"],
     "domain": "FoodTech / E-commerce",
-    "github": "https://github.com",
+    "github": "https://github.com/valushagrinchik/sm-bakery/sm-admin",
     "demo": "https://demo.com",
     "image": "/projects/sanmartin.png"
   },
@@ -28,7 +28,7 @@
     "features": ["multi-store bakery management", "geofenced delivery zones", "real-time notifications", "catalog parsing", "order processing"],
     "categories": ["backend"],
     "domain": "FoodTech / E-commerce",
-    "github": "https://github.com",
+    "github": "https://github.com/valushagrinchik/sm-bakery/sm-api",
     "demo": "https://t.me/bot",
     "image": "/projects/sanmartin.png"
   }
