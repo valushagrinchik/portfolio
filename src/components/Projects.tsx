@@ -36,6 +36,7 @@ export default function Projects() {
       <div className="absolute top-8 right-8">
         <div className="relative">
           <button
+            disabled={true}
             onClick={() => setIsLanguageDropdownOpen(!isLanguageDropdownOpen)}
             className="flex items-center gap-2 px-4 py-2 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
           >
@@ -85,8 +86,18 @@ export default function Projects() {
             {t('technologies')}
           </p>
           <div className="flex flex-col items-center gap-6 mb-8">
-            <div className="flex flex-wrap justify-center gap-4">
-              <div className="text-center">
+            <div className="grid grid-cols-3 gap-4 max-w-4xl mx-auto">
+              <div className="col-span-2 text-center">
+                <div className="px-8 py-4 bg-blue-100 text-blue-800 rounded-lg font-semibold text-xl">
+                  TypeScript
+                </div>
+              </div>
+              <div className="col-span-1 text-center">
+                <div className="px-6 py-4 bg-purple-100 text-purple-800 rounded-lg font-semibold text-xl">
+                  PostgreSQL
+                </div>
+              </div>
+              <div className="col-span-1 text-center">
                 <div className="px-6 py-3 bg-green-100 text-green-800 rounded-lg font-semibold text-lg">
                   Node.js
                 </div>
@@ -99,7 +110,7 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              <div className="text-center">
+              <div className="col-span-1 text-center">
                 <div className="px-6 py-3 bg-cyan-100 text-cyan-800 rounded-lg font-semibold text-lg">
                   React
                 </div>
@@ -109,12 +120,7 @@ export default function Projects() {
                   </div>
                 </div>
               </div>
-              <div className="px-6 py-3 bg-purple-100 text-purple-800 rounded-lg font-semibold text-lg">
-                PostgreSQL
-              </div>
-              <div className="px-24 py-3 bg-blue-100 text-blue-800 rounded-lg font-semibold text-lg">
-                TypeScript
-              </div>
+              <div className="col-span-1"></div>
             </div>
           </div>
         </div>
