@@ -163,7 +163,7 @@ export default function Projects() {
                     src={project.image} 
                     alt={project.title}
                     className="w-full h-full object-cover"
-                    onLoad={(e) => {
+                    onLoad={() => {
                       console.log(`Image loaded successfully: ${project.image}`);
                     }}
                     onError={(e: React.SyntheticEvent<HTMLImageElement>) => {
