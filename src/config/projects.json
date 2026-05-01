@@ -1,0 +1,35 @@
+[
+  {
+    "title": "San Martin Bakery",
+    "description": "A comprehensive food delivery and management system consisting of Backend API (NestJS), Customer App (React Native), and Admin Panel (Next.js). The platform supports bakery chains with delivery logistics, inventory management, and customer ordering capabilities.",
+    "technologies": ["TypeScript", "React", "Next.js", "Node.js", "Nest.js", "PostgreSQL", "Redis", "RabbitMQ", "Docker"],
+    "features": ["multi-store bakery management", "geofenced delivery zones", "real-time notifications", "catalog parsing", "order processing"],
+    "categories": ["fullstack"],
+    "domain": "FoodTech / E-commerce",
+    "github": "https://github.com",
+    "demo": "https://demo.com",
+    "image": "/projects/sanmartin.png"
+  }, 
+  {
+    "title": "San Martin Bakery Admin Panel",
+    "description": "Web interface for bakery management",
+    "technologies": ["TypeScript", "React", "Next.js", "Zustand", "FSD", "SSR", "Google Maps API", "Tailwind CSS", "Docker"],
+    "features": ["multi-store bakery management", "geofenced delivery zones"],
+    "categories": ["frontend"],
+    "domain": "FoodTech / E-commerce",
+    "github": "https://github.com",
+    "demo": "https://demo.com",
+    "image": "/projects/sanmartin.png"
+  },
+  {
+    "title": "San Martin Bakery API",
+    "description": "A comprehensive food delivery and management system consisting of Backend API (NestJS), Customer App (React Native), and Admin Panel (Next.js). Key features include multi-store bakery management, geofenced delivery zones, order processing, catalog parsing, and real-time notifications. The platform supports bakery chains with delivery logistics, inventory management, and customer ordering capabilities.",
+    "technologies": ["TypeScript", "Node.js", "Nest.js", "PostgreSQL", "Redis", "RabbitMQ", "Docker", "nx"],
+    "features": ["multi-store bakery management", "geofenced delivery zones", "real-time notifications", "catalog parsing", "order processing"],
+    "categories": ["backend"],
+    "domain": "FoodTech / E-commerce",
+    "github": "https://github.com",
+    "demo": "https://t.me/bot",
+    "image": "/projects/sanmartin.png"
+  }
+]

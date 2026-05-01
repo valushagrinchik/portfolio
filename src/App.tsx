@@ -1,10 +1,13 @@
+import { LanguageProvider } from './contexts/LanguageContext'
+import Projects from './components/Projects'
+
 function App() {
   return (
-    <div style={{ padding: "40px" }}>
-      <h1>Привет 👋</h1>
-      <h2>Я Full Stack разработчик</h2>
-      <p>Делаю веб-приложения и чат-ботов</p>
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen bg-white text-gray-900">
+        <Projects />
+      </div>
+    </LanguageProvider>
   )
 }
 
