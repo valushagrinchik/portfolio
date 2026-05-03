@@ -47,7 +47,6 @@ const translations: Translations = {
   
   // Skills
   'skillsTitle': { ru: 'Навыки', en: 'Skills' },
-  'technologies': { ru: 'Основной технологический стек', en: 'Main technology stack' },
   
   // Projects
   'projectsTitle': { ru: 'Проекты', en: 'Projects' },

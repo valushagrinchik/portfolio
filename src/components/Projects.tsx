@@ -82,9 +82,6 @@ export default function Projects() {
         </h1>
         
         <div className="text-center mb-12">
-          <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-            {t('technologies')}
-          </p>
           <div className="flex flex-col items-center gap-6 mb-8">
             <div className="grid grid-cols-3 grid-rows-2 gap-4 max-w-4xl mx-auto">
               <div className="col-span-2 row-span-1 text-center flex items-center justify-center bg-blue-100 text-blue-800 rounded-lg font-semibold text-xl">
